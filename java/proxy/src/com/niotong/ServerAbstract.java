@@ -1,5 +1,5 @@
 package com.niotong;
-
+//继承代理内容的抽象类
 public class ServerAbstract extends ServiceAbstract{
 	private ClientAbstract cli;
 	public ServerAbstract(ClientAbstract cli) {

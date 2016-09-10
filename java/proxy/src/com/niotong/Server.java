@@ -8,6 +8,7 @@ public class Server implements Service{
 	@Override
 	public void eat() {
 		// TODO Auto-generated method stub
+		//回调客户端
 		cli.eat();
 	}
 

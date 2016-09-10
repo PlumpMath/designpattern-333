@@ -1,5 +1,5 @@
 package com.niotong;
-
+//实现需要代理的内容
 public class Client implements Service{
 
 	@Override

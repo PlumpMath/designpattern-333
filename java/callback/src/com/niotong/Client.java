@@ -7,7 +7,7 @@ public class Client implements Callback{
 	//我寄件
 	public void send(){
 		System.out.print("wo shi ke hu ,wo yao ji jian!\n");
-		ser.recive();
+		ser.recive(); //将会回调
 	}
 	//回调函数
 	@Override
